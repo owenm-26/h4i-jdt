@@ -7,7 +7,7 @@
 <!-- Headshots Section -->
 <div align="center">
     <img src="./jdt-lead-headshots/owen.png" width="150" align="center" title="Owen">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1024px-Default_pfp.svg.png" width="150" align="center" title="Saad">
+  <img src="./jdt-lead-headshots/saad.png" width="150" align="center" title="Saad">
   <img src="./jdt-lead-headshots/Andrew.png" width="150" align="center" title="Andrew">
   <img src="./jdt-lead-headshots/Ethan.png" width="150" align="center" title="Ethan" >
 </div>
