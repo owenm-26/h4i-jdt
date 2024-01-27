@@ -1,5 +1,6 @@
-# Project Name
-Project Description (what the app does, what languages/technologies it will use)
+# Personal CV
+Basic personal CV/resume website to showcase past projects and display basic info about oneself  
+Uses HTML5, CSS, JS
 
 ## Takeaways
 * Language 
