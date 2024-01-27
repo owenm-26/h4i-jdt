@@ -1,3 +1,4 @@
+/* Project buttons */
 const btnProject1 = document.getElementById("btnProject1");
 const btnProject2 = document.getElementById("btnProject2");
 
@@ -11,6 +12,7 @@ btnProject2.addEventListener("click", function () {
   window.open(targetUrl, "_blank");
 });
 
+/* Profile icons */
 const linkedinImg = document.getElementById("linkedin-img");
 const githubImg = document.getElementById("github-img");
 
