@@ -9,9 +9,5 @@
 
 ## How to Run  
 1. Clone this repo
-2. Go to root directory (/Ethan's-Lesson) and open the terminal there
-3. Run the following commands:
-```
-npm install live-server
-npx live-server
-```
+2. Install 'Live Server' extension on VSCode
+3. Right click on index.html file, and click 'Open with live server'
