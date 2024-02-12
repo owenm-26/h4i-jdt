@@ -45,6 +45,20 @@ p {
   margin: 7.5rem 0;
 }
 
+#profile h2 {
+  font-size: 2rem;
+  color: #1a5653;
+}
+
+#profile h2,
+#profile p {
+  margin-bottom: 1px;
+}
+
+.icons img:hover {
+  transform: scale(1.1); /* Slightly enlarge icons on hover */
+}
+
 /* ABOUT SECTION */
 #about {
   display: flex;
@@ -66,43 +80,55 @@ p {
 
 #about-title {
   font-size: 2.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   color: #1a5653;
 }
 
 /* EXPERIENCE SECTION */
-#expierence {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 15rem;
+#experiences {
+  background-color: #f5f5f5; /* Light grey background */
+  padding: 40px 10%; /* Spacing around the content */
+  color: #333; /* Dark text color for readability */
 }
-.section-title {
-  font-size: 2.5em;
-  margin-bottom: 1.5rem;
-  color: #1a5653;
+
+#experiences h2 {
   text-align: center;
-}
-ul li {
-  list-style: none;
-}
-.role {
-  padding: 1.5rem 10rem;
-  margin-bottom: 1.5rem;
-  border: 2px solid #023020;
-  border-radius: 2rem;
-}
-#my-name {
-  font-size: 2rem;
+  font-size: 2em;
+  margin-bottom: 30px;
   color: #1a5653;
-  margin-bottom: -0.3rem;
 }
-#hello {
-  margin-top: 1rem;
-  margin-bottom: -0.5rem;
+
+.experience {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  border-left: 5px solid #023020;
 }
-#tagline {
-  margin-bottom: 0.5rem;
+
+.experience h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.experience h4 {
+  margin-top: 5px;
+  color: #666;
+  font-weight: normal;
+}
+
+.experience .date {
+  font-style: italic;
+  color: #999;
+  margin-bottom: 15px;
+}
+
+.experience ul {
+  margin-left: 20px; /* Indent for the list */
+}
+
+.experience ul li {
+  margin-bottom: 10px;
 }
 
 /* PROJECTS SECTION */
