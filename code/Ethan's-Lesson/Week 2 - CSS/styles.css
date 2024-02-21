@@ -52,7 +52,10 @@ body {
 #about {
   width: 50%;
   margin: 0 auto;
-  margin-bottom: 100px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 #about ul li {
@@ -68,17 +71,29 @@ body {
   margin-top: 20px;
 }
 
-#projects h2 {
+#projects h2,
+#experiences h2 {
   text-align: center;
   font-size: 30px;
   margin-bottom: 20px;
 }
 
-.project {
+.project,
+.experience {
   background: #fff;
   margin: 0 auto;
   margin-bottom: 30px;
   width: 65%;
   padding: 25px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#experiences li {
+  margin-left: 25px;
+}
+
+#projects,
+#experiences,
+#about {
+  margin-bottom: 100px;
 }
