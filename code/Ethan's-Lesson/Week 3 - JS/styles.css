@@ -13,13 +13,14 @@ body {
 #navbar {
   display: flex;
   justify-content: space-evenly;
-  background-color: white;
-  padding: 20px 0;
+  background: linear-gradient(to right, #004d40, #00796b);
+  color: white;
+  padding: 30px 0;
   align-items: center;
 }
 
 #navbar a {
-  color: #333333;
+  color: white;
   text-decoration: none;
   font-size: 20px;
 }
@@ -88,7 +89,8 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-#experiences li {
+#experiences li,
+#projects li {
   margin-left: 25px;
 }
 
@@ -96,4 +98,21 @@ body {
 #experiences,
 #about {
   margin-bottom: 100px;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #023020;
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  border: 1px solid #023020;
+}
+
+button:hover {
+  background-color: white;
+  color: #023020;
 }

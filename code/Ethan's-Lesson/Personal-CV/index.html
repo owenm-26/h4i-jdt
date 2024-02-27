@@ -3,46 +3,93 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Personal Website</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
+
   <body>
-    <div class="topnav">
-      <h1>Ethan Levine</h1>
+    <div id="navbar">
+      <h1>Your Name</h1>
       <a href="#about">About</a>
-      <a href="#expierence">Expierence</a>
-      <a href="#projects-section-title">Projects</a>
+      <a href="#projects">Projects</a>
+      <a href="#experiences">Experience</a>
     </div>
     <div id="profile">
       <img width="250" src="images/headshot.png" />
-      <p>Hello, I am</p>
-      <h2>Ethan Levine</h2>
-      <p id="tagline">Boston University Student</p>
-      <div class="icons">
-        <img id="linkedin-img" width="50" src="images/linkedin.png" />
-        <img id="github-img" width="50" src="images/github.png" />
+      <div id="profile-text">
+        <p>Hello, I am</p>
+        <h2>Your Name</h2>
+        <p>Boston University Student</p>
+        <div class="icons">
+          <img id="linkedin-img" width="50" src="images/linkedin.png" />
+          <img id="github-img" width="50" src="images/github.png" />
+        </div>
       </div>
     </div>
+
     <div id="about">
-      <h2 id="about-title">About</h2>
+      <h2>About Me:</h2>
       <p>
-        I am computer engineering student at Boston University. I'm currently a
-        member of Hack4Impact, I am interested in learing more about web
-        development. I have expierence in these programming languages:
-        language1, language2, language3. Feel free to contact me at
-        eolev43@gmail.com
+        I'm a student at Boston University studying [major]. I'm currently a
+        member of [orginization]. I'm excited to learn more about [topic]. I
+        have expereience in [skill 1], [skill 2], and [skill 3]. Feel free to
+        contact me at yourEmailHere@gmail.com
       </p>
-      <h3>Programming Languages:</h3>
-      <p class="about-skills">HTML5, CSS, JavaScript, C++, Python</p>
-      <h3>Other Tools:</h3>
-      <p class="about-skills">Git, VSCode, VIM, Linux</p>
+      <h3>My Skills:</h3>
+      <ul>
+        <li>Languages: HTML, CSS, JavaScript</li>
+        <li>Frameworks/Applications: GitHub, Git, VSCode</li>
+      </ul>
+      <h3>Relevant Coursework:</h3>
+      <div id="courses">
+        <ul>
+          <li>Class 1</li>
+          <li>Class 2</li>
+        </ul>
+        <ul>
+          <li>Class 3</li>
+          <li>Class 4</li>
+        </ul>
+        <ul>
+          <li>Class 5</li>
+          <li>Class 6</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="projects">
+      <h2>Projects:</h2>
+      <div class="project">
+        <h4>Project 1 Name</h4>
+        <ul>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+          <li>Aenean suscipit metus augue, in finibus nisi fringilla quis.</li>
+          <li>
+            Sed volutpat, leo at mattis tincidunt, sapien dui tristique ex, non
+            feugiat neque felis at nunc.
+          </li>
+        </ul>
+        <button id="project1Btn">GitHub</button>
+      </div>
+      <div class="project">
+        <h4>Project 2 Name</h4>
+        <ul>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+          <li>Aenean suscipit metus augue, in finibus nisi fringilla quis.</li>
+          <li>
+            Sed volutpat, leo at mattis tincidunt, sapien dui tristique ex, non
+            feugiat neque felis at nunc.
+          </li>
+        </ul>
+        <button id="project2Btn">GitHub</button>
+      </div>
     </div>
     <div id="experiences">
       <h2>Experiences:</h2>
       <div class="experience">
         <h3>Job Title</h3>
-        <h4>Company Name, City, State</h4>
-        <p class="date">Date Started - Date Ended</p>
+        <h4>Company Name, New York, NY</h4>
+        <p class="date">June 2021 - Present</p>
         <ul>
           <li>
             Developed and maintained scalable web applications using React and
@@ -59,8 +106,8 @@
       </div>
       <div class="experience">
         <h3>Job Title</h3>
-        <h4>Company Name, City, State</h4>
-        <p class="date">Date Started - Date Ended</p>
+        <h4>Company Name, New York, NY</h4>
+        <p class="date">June 2021 - Present</p>
         <ul>
           <li>
             Developed and maintained scalable web applications using React and
@@ -77,45 +124,6 @@
       </div>
       <!-- Add more experiences as needed -->
     </div>
-
-    <h2 id="projects-section-title" class="section-title">Projects</h2>
-
-    <div id="projects-section">
-      <div class="project">
-        <h3 class="project-title">Project Title</h3>
-        <img
-          style="border-radius: 2rem"
-          width="250"
-          src="images/project1.jpeg"
-        />
-        <p class="project-description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-          voluptatum, quibusdam, quia, quae voluptates voluptatem quos
-          voluptatibus quod doloribus quas fugit.
-        </p>
-        <button id="btnProject1" class="btnGitHub">GitHub</button>
-      </div>
-      <div class="project">
-        <h3 class="project-title">Project Title</h3>
-        <img
-          style="border-radius: 2rem"
-          width="250"
-          src="images/project2.jpeg"
-        />
-        <p class="project-description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-          voluptatum, quibusdam, quia, quae voluptates voluptatem quos
-          voluptatibus quod doloribus quas fugit.
-        </p>
-        <button id="btnProject2" class="btnGitHub">GitHub</button>
-      </div>
-    </div>
-    <footer>
-      <p style="color: white">© 2024 Ethan Levine</p>
-      <p>
-        <a href="mailto:eolev43@gmail.com">eolev43@gmail.com</a>
-      </p>
-    </footer>
-    <script src="script.js"></script>
+    <script src="scripts.js"></script>
   </body>
 </html>
