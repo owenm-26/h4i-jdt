@@ -17,14 +17,13 @@ body {
 #navbar {
   display: flex;
   justify-content: space-evenly;
-  background: linear-gradient(to right, #004d40, #00796b);
-  color: white;
-  padding: 30px 0;
+  background-color: white;
+  padding: 20px 0;
   align-items: center;
 }
 
 #navbar a {
-  color: white;
+  color: #333333;
   text-decoration: none;
   font-size: 20px;
 }
@@ -57,10 +56,7 @@ body {
 #about {
   width: 50%;
   margin: 0 auto;
-  background-color: white;
-  padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 100px;
 }
 
 #about ul li {
@@ -76,47 +72,17 @@ body {
   margin-top: 20px;
 }
 
-#projects h2,
-#experiences h2 {
+#projects h2 {
   text-align: center;
   font-size: 30px;
   margin-bottom: 20px;
 }
 
-.project,
-.experience {
+.project {
   background: #fff;
   margin: 0 auto;
   margin-bottom: 30px;
   width: 65%;
   padding: 25px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-#experiences li,
-#projects li {
-  margin-left: 25px;
-}
-
-#projects,
-#experiences,
-#about {
-  margin-bottom: 100px;
-}
-
-button {
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
-  border: none;
-  background-color: #023020;
-  color: white;
-  font-size: 1.2rem;
-  margin-top: 1rem;
-  cursor: pointer;
-  border: 1px solid #023020;
-}
-
-button:hover {
-  background-color: white;
-  color: #023020;
 }

@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Poppins";
   background-color: #f7f7f7;
