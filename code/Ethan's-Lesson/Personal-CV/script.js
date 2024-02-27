@@ -18,6 +18,7 @@ const githubImg = document.getElementById("github-img");
 
 linkedinImg.addEventListener("click", function () {
   const targetUrl = "https://www.linkedin.com/";
+  S;
   window.open(targetUrl, "_blank");
 });
 
