@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #15202B; /* Darker blue background */
+    font-family: "Roboto", sans-serif;
+    color: #E1E8ED; /* Lighter text color for readability */
+}
+
+#Title {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px; /* Slightly larger for emphasis */
+    border-bottom: 2px solid #38444D; /* Softer border color */
+    background-color: #192734; /* Dark header background */
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+#MainFeed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.post {
+    background-color: #192734; /* Matching the theme's color palette */
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #38444D; /* Softer border */
+    border-radius: 10px; /* Rounded corners for a modern look */
+    width: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+}
+
+#Title h1 {
+    justify-content: center;
+    width: 75%;
+}
+
+#add {
+    background-color: #1DA1F2; /* Twitter blue for the add button */
+    color: white;
+    border: none;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.inputButton, .exitAdd {
+    display: inline-flex; /* Align items centrally and provide a flexible container */
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px; /* Adjusted padding for better text visibility and comfort */
+    border-radius: 20px; /* Rounded corners for a modern, friendly appearance */
+    border: none; /* Removing the border for a cleaner look */
+    background-color: #1DA1F2; /* Vibrant Twitter blue for standout buttons */
+    color: white; /* High contrast text for readability */
+    font-size: 14px; /* Maintaining font size for consistency */
+    cursor: pointer; /* Ensuring it's clear these are clickable buttons */
+    text-align: center; /* Ensuring text is centered for aesthetic purposes */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.inputTweet {
+    background-color: #253341; /* Slightly lighter background for contrast */
+    color: #E1E8ED; /* Text color */
+    border: 1px solid #38444D; /* Softer border */
+    border-radius: 15px; /* Rounded corners */
+    resize: none;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 50%;
+
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1; /* Dimmed backdrop */
+}
+
+#addTweet {
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    height: 25%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    background-color: #192734; /* Updated to match the theme's background color */
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Enhanced shadow for better depth */
+    border-radius: 25px;
+    border: none; /* Removing border for a cleaner look */
+    color: #E1E8ED; /* Lighter text color for better readability */
+    resize: none;
+
+}
+
+#addbuttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+#noTweet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.noTweetText{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.postDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.topPost{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+    color: "#D3D3D3";
+    font-size: 12px;
+}
+
+.homeButton{
+    cursor: pointer;
+    transition: background-color 0.3s;
+}

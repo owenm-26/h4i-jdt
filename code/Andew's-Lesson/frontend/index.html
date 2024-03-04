@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css"/>
+</head>
+<body>
+    <form id="loginForm">
+        <div id="loginBox">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <button type="submit">Login</button>
+    </form>
+
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent the form from submitting in the traditional way
+            
+            const username = document.getElementById('username').value;
+            localStorage.setItem('username', username);
+
+            window.location.href = 'home.html';
+        });
+    </script>
+</body>
+</html>

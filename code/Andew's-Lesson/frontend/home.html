@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <div id="login-section">
+        <input type="text" id="username" placeholder="Enter Username">
+        <button id="login-btn">Login</button>
+    </div>
+    <div id="Title">
+        <h1 id="homeButton">Twitter</h1>
+        <button id="add">+</button>
+    </div>
+    <div id="MainFeed">
+    </div>
+    <div id="modalOverlay" class="modal-overlay" style="display: none;"></div>
+
+    <div id="noTweet" style="display: none;">
+        <h1 class="noTweetText">Click the + button to add your first tweet!</h1>
+    </div>
+
+    <div id="addTweet" style="display: none;">
+        <input class="inputTweet" placeholder="input tweet!"></input>
+        <div id="addbuttons">
+            <button class="inputButton">Add</button>
+            <button class="exitAdd">x</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+
+</body>
+</html>
