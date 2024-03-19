@@ -24,13 +24,6 @@ function updateNoTweetVisibility() {
   document.getElementById('noTweet').style.display = posts.length === 0 ? 'block' : 'none';
 }
 
-// Routes object for handling different paths (not used in the snippet provided but kept for completeness)
-const routes = {
-  '/': function() { console.log('Home Page'); },
-  '/about': function() { console.log('About Page'); },
-  '/contact': function() { console.log('Contact Page'); }
-};
-
 // Function to create a post element from a post object
 function createPostElement(post) {
   const postElement = document.createElement('div');
