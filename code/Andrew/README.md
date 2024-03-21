@@ -1,10 +1,9 @@
-# Project Name
-Project Description (what the app does, what languages/technologies it will use)
+# Twitter Clone
+Make a backend API that will allow you to read and write tweets to your app!
 
 ## Takeaways
-* Language 
-* Language 
-* Technology
+* JavaScript
+* PostgreSQL
 
 ## How to Run
 (cd src, npm start ...)
