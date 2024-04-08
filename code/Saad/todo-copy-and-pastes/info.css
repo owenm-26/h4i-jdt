@@ -1,0 +1,26 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 24px 40px;
+    flex: 1;
+}
+
+.info .punchline {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.info .punchline span {
+    margin: 0 10px;
+}
+
+.info .tagline {
+    color: #94a1b2;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    width: 80%;
+}
