@@ -1,0 +1,30 @@
+.task {
+    min-height: 40px;
+    background-color: #94a1b2;
+    border-radius: 6px;
+    width: 100%;
+    padding-left: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    gap: 10px;
+}
+
+.task input {
+    margin: 0;
+    cursor: pointer;
+}
+
+.task span {
+    flex: 1;
+}
+
+.task .delete {
+    width: 50px;
+    border-left: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
