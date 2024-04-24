@@ -1,0 +1,58 @@
+.seperator {
+  height: 1px;
+  background-color: #fff;
+  margin: 0 24px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0px 40px;
+  flex: 1;
+}
+
+.main .todo {
+  background-color: #fffffe;
+  min-height: 400px;
+  width: 60%;
+  border-radius: 6px;
+  padding: 16px;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.main .todo .todo-input {
+  padding-left: 16px;
+  width: 100%;
+  min-height: 40px;
+  background-color: #7f5af0;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+
+.main .todo .todo-input input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0 16px;
+  resize: none;
+  color: #fff;
+  flex: 1;
+}
+
+.main .todo .todo-input .add {
+  width: 50px;
+  border-left: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+
